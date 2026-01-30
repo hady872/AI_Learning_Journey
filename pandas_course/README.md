@@ -15,5 +15,5 @@ Learning pandas step by step with practical examples.
 * **Day 5:** Apply function to column, `.info()`, `.describe()` & `.describe(all)`
 * **Day 6:** Swap to Jupyter Notebook
 * **Day 7:** String operations in Pandas (`str.strip()`, `lower()`, `upper()`, `contains`)
-
+* **Day 8:** Filtering & conditions in Pandas (>, >=, ==, &, |, isin, sort_values)
 ---
