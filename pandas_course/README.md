@@ -17,4 +17,18 @@ Learning pandas step by step with practical examples.
 * **Day 7:** String operations in Pandas (`str.strip()`, `lower()`, `upper()`, `contains`)
 * **Day 8:** Filtering & conditions in Pandas (>, >=, ==, &, |, isin, sort_values)
 * **Day 9:** GroupBy & aggregation (groupby, mean, sum, count, agg, reset_index)
+* **Day 10:** Handling Missing Data & Statistics
+
+- Learned how to handle missing values using `dropna()` and `fillna()`
+- Understood the difference between row-wise and column-wise operations using `axis`
+- Filled missing numeric values using column means
+
+⚠️ Important Note:
+When using statistical functions like `mean()`, `sum()`, or `std()` in pandas,
+always specify `numeric_only=True` if the DataFrame contains non-numeric (string) columns.
+
+Example:
+```python
+clean_df = df.fillna(df.mean(numeric_only=True))
+clean_df.mean(numeric_only=True)
 ---
