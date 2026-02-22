@@ -18,6 +18,7 @@ Learning pandas step by step with practical examples.
 * **Day 8:** Filtering & conditions in Pandas (>, >=, ==, &, |, isin, sort_values)
 * **Day 9:** GroupBy & aggregation (groupby, mean, sum, count, agg, reset_index)
 * **Day 10:** Handling Missing Data & Statistics
+* **Day 11:** GroupBy & Aggregation
 
 - Learned how to handle missing values using `dropna()` and `fillna()`
 - Understood the difference between row-wise and column-wise operations using `axis`
