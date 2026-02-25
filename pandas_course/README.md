@@ -20,6 +20,7 @@ Learning pandas step by step with practical examples.
 * **Day 10:** Handling Missing Data & Statistics
 * **Day 11:** GroupBy & Aggregation
 * **Day 12:** Merge & Join
+* **Day 13:** Handling Missing Data(dropna, fillna, ffill, bfill)
 
 - Learned how to handle missing values using `dropna()` and `fillna()`
 - Understood the difference between row-wise and column-wise operations using `axis`
