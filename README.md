@@ -4,4 +4,5 @@ This repository documents my journey learning Artificial Intelligence step by st
 
 - NumPy
 - Pandas
+- Matplotlib
 - (More coming soon)
